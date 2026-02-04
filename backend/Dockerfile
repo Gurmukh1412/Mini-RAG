@@ -17,4 +17,5 @@ COPY . .
 EXPOSE 10000
 
 # Start FastAPI app
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "10000"]
+CMD ["sh", "-c", "uvicorn api:app --host 0.0.0.0 --port $PORT --workers 1 --loop asyncio"]
+
