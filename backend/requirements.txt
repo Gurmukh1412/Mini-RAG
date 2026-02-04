@@ -1,0 +1,30 @@
+# Core API
+fastapi
+uvicorn
+
+# Environment variables
+python-dotenv
+
+# LangChain core
+langchain
+langchain-core
+
+# Qdrant
+qdrant-client
+langchain-qdrant
+
+# Embeddings (MiniLM)
+sentence-transformers
+langchain-huggingface
+transformers
+torch
+
+# Reranker (Cross-Encoder)
+scikit-learn
+numpy
+
+# LLM (Groq)
+langchain-groq
+
+# HTTP
+requests
