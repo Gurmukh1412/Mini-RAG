@@ -32,17 +32,17 @@ This project helped me understand **system-level thinking** in AI applications.
 ## 🧠 How the system works (High Level)
 
 User Question
-↓
+->
 Convert question to embedding
-↓
+->
 Search similar vectors in database
-↓
+->
 Fetch top relevant context
-↓
+->
 (Optional) Re-rank context
-↓
+->
 Send context + question to LLM
-↓
+->
 Final Answer
 
 ---
@@ -126,6 +126,8 @@ After running the backend, API documentation is available at:
 
 http://127.0.0.1:8000/docs
 
+---
+
 🎯 What I learned from this project
         How vector databases work
         How embeddings are used for semantic search
@@ -133,15 +135,22 @@ http://127.0.0.1:8000/docs
         How to design modular AI systems
         How to structure an ML project properly
 
+---
+
 🚀 Future Improvements
         Add document upload support
         Improve retrieval accuracy
         Add UI instead of CLI
         Support multiple datasets
 
+---
+
 📄 License
 This project is licensed under the MIT License.
+
+---
 
 👤 Author
 Gurmukh Singh
 Undergraduate Student, IIT Mandi
+
