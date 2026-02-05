@@ -1,8 +1,13 @@
 fastapi
 uvicorn
+streamlit
 sentence-transformers
+faiss-cpu
+python-dotenv
+requests
+torch
+transformers
 qdrant-client
 langchain
 langchain-community
 langchain-groq
-torch

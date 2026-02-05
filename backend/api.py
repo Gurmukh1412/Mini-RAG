@@ -4,6 +4,13 @@ from pydantic import BaseModel, Field
 from vectorstore import add_texts
 from rag import rag_query
 
+import os
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run("api:app", host="0.0.0.0", port=port)
+
 app = FastAPI(
     title="Mini RAG API",
     description="End-to-end Retrieval-Augmented Generation API",
