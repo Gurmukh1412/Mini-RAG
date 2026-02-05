@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-sentence-transformers
-qdrant-client
-langchain
-langchain-community
-langchain-groq
-torch
